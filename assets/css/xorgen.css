@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #2C001E;
+}
+
+body #xor-pre-form {
+  text-align: center;
+}
+
+body .animated-background {
+  transition: background-color .2s ease;
+}
+
+body .animated-background:hover {
+  background-color: #9b2372;
+}
+
+body .m-10-top {
+  margin-top: 10px;
+}
+
+body input[type="text"],
+body button,
+body textarea {
+  color: #F4E3F7;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 750px;
+}
+
+body input[type="text"],
+body button,
+body textarea {
+  background-color: #4D0033;
+  padding: 5px;
+}
+
+body textarea {
+  height: 400px;
+  resize: none;
+}
+
+body button {
+  background-color: #D6336C;
+  padding: 10px;
+  cursor: pointer;
+}
